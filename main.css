@@ -1,0 +1,29 @@
+p
+	{
+		padding-left: 20px ;
+		padding-right: 20px; 
+		font-size: 18px;
+		color:white ;
+		background-color:#000;
+	}
+h1
+	{
+		padding: 10px 0 10px 0;
+		text-align:center;
+		font-size:80pt;
+		color: rgb(163, 19, 9);
+	}
+h1 span
+	{
+		border:10px inset rgb(163, 19, 9);
+		padding: 10px;
+	}
+h3
+	{
+		color:rgb(163, 19, 9);
+		font-size:30px;
+	}
+li
+	{
+		font-size: 18px ;
+	}
