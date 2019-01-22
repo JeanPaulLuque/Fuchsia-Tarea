@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="main.css">
+	<title>Jean Paul Luque Quispe</title>
+</head>
+<body>
+	<h1><span>FuchsiaOS</span></h1>
+	<hr>
+	<p>Sistema operativo de Google no esta basado en linux como Android y ChromeOS. Esta escrito desde 0 y servira para todos los dispositivos como computadores portatiles , smartphones , wearables y tablets.</p>
+	<hr>
+
+	<h3>
+		Caracteristicas:
+	</h3>
+	<p>
+		<ul>
+			<li>Destinado para IoT.</li>
+			<li>Multiplataforma.</li>
+			<li>Compatibilidad con procesadores ARM.</li>
+			<li>Basada en el Microkernel <b>Zircon</b>.</li>
+			<li>Tendra compatibilidad con app's de Android.</li>
+		</ul>
+	</p>
+	<hr>
+	<h3>
+		Zircon:
+	</h3>	
+	<p>
+		Zircon es la plataforma central que impulsa el sistema operativo <b>Fuchsia</b>
+		Nucleo del sistema escrito en C++ y parte de el en assembler.
+		Compone un micronucleo asi como un pequeño conjunto de servicios del usuario , controladores y bibliotecas.
+	</p>
+	<hr>
+	<h3>
+		Caracteristicas Zircon:
+	</h3>
+	<ul>
+		<li>Gestion de hilos.</li>
+		<li>Memoria Virtual.</li>
+		<li>Comunicación entre procesos.</li>
+		<li>Basado en littleKernel.</li>
+		<li>Tiene como objetivos consumir menos recursos del sistema.</li>
+		<li>Incorpora Programación Orientada a Eventos y patron de observador .Ademas la mayoria de llamadas al sistema no bloquean el hilo principal. </li>
+	</ul>
+	<hr>
+	<h3>
+		Zircon administra recursos tales como:
+	</h3>
+	<p>Tiempo del procesador , memoria , E/S (I/O) , interrupciones  y tiempo de espera. </p>
+	<hr>
+	<h3>Secuencia de arranque:</h3>
+	<table align="center">
+		<tr>
+			<th>"app.mgr"</th>
+			<th>"sys.mgr"</th>
+			<th>"base.mgr"</th>
+		</tr>
+		<tr>
+			<th>↑</th>
+			<th>↑</th>
+			<th>↑</th>
+		</tr>
+		<tr>
+			<th>Se encarga del arbol de entorno</th>
+			<th>Crear el entorno de arranque</th>
+			<th>Flujo interactivo por el inicio de sesion y administracion de usuarios</th>
+		</tr>
+	</table>
+	<br>
+	<footer>
+		<div align ="center">
+			<p class = "downside">Para mas informacion :<a href="https://fuchsia.googlesource.com/" target="blank">Aqui</a></p>
+			<img src="logo.png">
+			<p class="downside"><i>Jean Paul luque Quispe  - Estudiante - CS - UCSP</i></p>	
+		</div>
+	</footer>
+</body>
+</html>
